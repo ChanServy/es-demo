@@ -1,10 +1,8 @@
-package com.chan.es;
+package com.chan.hotel;
 
-import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
@@ -12,14 +10,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @since 2022/5/17
  */
 @SpringBootApplication
-@MapperScan("com.chan.es.mapper")
+@MapperScan("com.chan.hotel.mapper")
 @EnableTransactionManagement
-public class SearchApplication {
+public class HotelApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SearchApplication.class, args);
-    }
-    @Bean
-    public PaginationInterceptor paginationInterceptor(){
-        return new PaginationInterceptor();
+        SpringApplication.run(HotelApplication.class, args);
     }
 }
