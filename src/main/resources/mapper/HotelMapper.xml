@@ -5,18 +5,18 @@
 <mapper namespace="com.chan.hotel.mapper.HotelMapper">
 
     <resultMap id="BaseResultMap" type="com.chan.hotel.pojo.Hotel">
-            <id property="id" column="id" jdbcType="BIGINT"/>
-            <result property="name" column="name" jdbcType="VARCHAR"/>
-            <result property="address" column="address" jdbcType="VARCHAR"/>
-            <result property="price" column="price" jdbcType="INTEGER"/>
-            <result property="score" column="score" jdbcType="INTEGER"/>
-            <result property="brand" column="brand" jdbcType="VARCHAR"/>
-            <result property="city" column="city" jdbcType="VARCHAR"/>
-            <result property="starName" column="star_name" jdbcType="VARCHAR"/>
-            <result property="business" column="business" jdbcType="VARCHAR"/>
-            <result property="latitude" column="latitude" jdbcType="VARCHAR"/>
-            <result property="longitude" column="longitude" jdbcType="VARCHAR"/>
-            <result property="pic" column="pic" jdbcType="VARCHAR"/>
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="price" column="price" jdbcType="INTEGER"/>
+        <result property="score" column="score" jdbcType="INTEGER"/>
+        <result property="brand" column="brand" jdbcType="VARCHAR"/>
+        <result property="city" column="city" jdbcType="VARCHAR"/>
+        <result property="starName" column="star_name" jdbcType="VARCHAR"/>
+        <result property="business" column="business" jdbcType="VARCHAR"/>
+        <result property="latitude" column="latitude" jdbcType="VARCHAR"/>
+        <result property="longitude" column="longitude" jdbcType="VARCHAR"/>
+        <result property="pic" column="pic" jdbcType="VARCHAR"/>
     </resultMap>
 
 </mapper>
